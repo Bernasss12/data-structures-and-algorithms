@@ -1,0 +1,19 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+
+# Kotlin Gradle daemon log
+*.log
+
+# Build Directory
+build/
+
+# Directory for compiled classes
+out/
+
+# Gradle
+.gradle/
+
+# Local configuration file (sdk paths, etc)
+local.properties
