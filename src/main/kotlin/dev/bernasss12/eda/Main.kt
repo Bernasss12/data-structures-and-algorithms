@@ -1,5 +1,9 @@
 package main.kotlin
 
+import dev.bernasss12.eda.binarySearch
+import dev.bernasss12.eda.jumpSearch
+import dev.bernasss12.eda.linearSearch
+import dev.bernasss12.eda.quickSort
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 import kotlin.time.Duration

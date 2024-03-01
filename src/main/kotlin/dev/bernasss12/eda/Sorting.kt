@@ -1,4 +1,4 @@
-package main.kotlin
+package dev.bernasss12.eda
 
 fun <Element : Comparable<Element>> List<Element>.bubbleSort(
     comparator: Comparator<Element> = compareBy { it }

@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalStdlibApi::class)
 
-package main.kotlin
+package dev.bernasss12.eda
 
 import kotlin.math.floor
 import kotlin.math.sqrt
