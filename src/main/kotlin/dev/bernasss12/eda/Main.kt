@@ -7,8 +7,8 @@ import kotlin.time.DurationUnit
 import kotlin.time.toDuration
 
 fun main() {
-    val directoryFile = Path("/home/bernas/IdeaProjects/Phone Book (Kotlin)/directory.txt")
-    val findFile = Path("/home/bernas/IdeaProjects/Phone Book (Kotlin)/find.txt")
+    val directoryFile = Path("directory.txt")
+    val findFile = Path("find.txt")
 
     val directory = directoryFile.readLines().map(PhoneBookEntry.Companion::fromEntry)
     val find = findFile.readLines().map(PhoneBookEntry.Companion::fromName)
